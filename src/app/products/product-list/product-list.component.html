@@ -1,0 +1,22 @@
+
+<div class="container mt-4">
+  <h2>Product List</h2>
+  <div class="row">
+    <div *ngFor="let product of products" class="col-md-3 mb-4">
+      <div class="card w-75 h-100">
+        <img [src]="product.image" class="card-img-top product-image" alt="{{ product.name }}">
+        <div class="card-body prodct-content">
+          <h5 class="card-title">{{ product.name }}</h5>
+          <p class="card-text">₹{{ product.price }}</p>
+
+          <div class="form-group ">
+            <label>Quantity:</label>
+            <input type="number" min="1" max="5" [(ngModel)]="quantities[product.id]" class="form-control" style="width: 100px;">
+          </div>
+
+          <button (click)="addToCart(product)" class="btn btn-primary mt-2">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

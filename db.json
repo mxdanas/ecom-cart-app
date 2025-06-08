@@ -1,0 +1,47 @@
+{
+  "users": [
+    {
+      "id": "15b1",
+      "username": "anas",
+      "password": "anas@123"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Monitor",
+      "price": 12000,
+      "image": "assets/images/monitor.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Keyboard",
+      "price": 3000,
+      "image": "assets/images/keyboard.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Mouse",
+      "price": 1500,
+      "image": "assets/images/mouse.jpg"
+    }
+  ],
+  "cart": [
+    {
+      "id": "349e",
+      "productId": "1",
+      "name": "Monitor",
+      "price": 12000,
+      "quantity": 1,
+      "image": "assets/images/monitor.jpg"
+    },
+    {
+      "id": "6cbc",
+      "productId": "2",
+      "name": "Keyboard",
+      "price": 3000,
+      "quantity": 1,
+      "image": "assets/images/keyboard.jpg"
+    }
+  ]
+}
